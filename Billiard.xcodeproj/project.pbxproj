@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F1CE4F1F902D44000138D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CE4E1F902D44000138D4 /* AppDelegate.swift */; };
+		C5F1CE511F902D44000138D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CE501F902D44000138D4 /* GameScene.sks */; };
+		C5F1CE531F902D44000138D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CE521F902D44000138D4 /* Actions.sks */; };
+		C5F1CE551F902D44000138D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CE541F902D44000138D4 /* GameScene.swift */; };
+		C5F1CE571F902D44000138D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CE561F902D44000138D4 /* GameViewController.swift */; };
+		C5F1CE5A1F902D44000138D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CE581F902D44000138D4 /* Main.storyboard */; };
+		C5F1CE5C1F902D44000138D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CE5B1F902D44000138D4 /* Assets.xcassets */; };
+		C5F1CE5F1F902D44000138D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CE5D1F902D44000138D4 /* LaunchScreen.storyboard */; };
+		C5F1CE6A1F902D44000138D4 /* BilliardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CE691F902D44000138D4 /* BilliardTests.swift */; };
+		C5F1CE751F902D44000138D4 /* BilliardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CE741F902D44000138D4 /* BilliardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5F1CE661F902D44000138D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F1CE431F902D44000138D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F1CE4A1F902D44000138D4;
+			remoteInfo = Billiard;
+		};
+		C5F1CE711F902D44000138D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F1CE431F902D44000138D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F1CE4A1F902D44000138D4;
+			remoteInfo = Billiard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5F1CE4B1F902D44000138D4 /* Billiard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Billiard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F1CE4E1F902D44000138D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5F1CE501F902D44000138D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C5F1CE521F902D44000138D4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C5F1CE541F902D44000138D4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C5F1CE561F902D44000138D4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C5F1CE591F902D44000138D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5F1CE5B1F902D44000138D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F1CE5E1F902D44000138D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5F1CE601F902D44000138D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F1CE651F902D44000138D4 /* BilliardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilliardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F1CE691F902D44000138D4 /* BilliardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilliardTests.swift; sourceTree = "<group>"; };
+		C5F1CE6B1F902D44000138D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F1CE701F902D44000138D4 /* BilliardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilliardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F1CE741F902D44000138D4 /* BilliardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilliardUITests.swift; sourceTree = "<group>"; };
+		C5F1CE761F902D44000138D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F1CE481F902D44000138D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F1CE621F902D44000138D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F1CE6D1F902D44000138D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F1CE421F902D44000138D4 = {
+			isa = PBXGroup;
+			children = (
+				C5F1CE4D1F902D44000138D4 /* Billiard */,
+				C5F1CE681F902D44000138D4 /* BilliardTests */,
+				C5F1CE731F902D44000138D4 /* BilliardUITests */,
+				C5F1CE4C1F902D44000138D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F1CE4C1F902D44000138D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1CE4B1F902D44000138D4 /* Billiard.app */,
+				C5F1CE651F902D44000138D4 /* BilliardTests.xctest */,
+				C5F1CE701F902D44000138D4 /* BilliardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F1CE4D1F902D44000138D4 /* Billiard */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1CE4E1F902D44000138D4 /* AppDelegate.swift */,
+				C5F1CE501F902D44000138D4 /* GameScene.sks */,
+				C5F1CE521F902D44000138D4 /* Actions.sks */,
+				C5F1CE541F902D44000138D4 /* GameScene.swift */,
+				C5F1CE561F902D44000138D4 /* GameViewController.swift */,
+				C5F1CE581F902D44000138D4 /* Main.storyboard */,
+				C5F1CE5B1F902D44000138D4 /* Assets.xcassets */,
+				C5F1CE5D1F902D44000138D4 /* LaunchScreen.storyboard */,
+				C5F1CE601F902D44000138D4 /* Info.plist */,
+			);
+			path = Billiard;
+			sourceTree = "<group>";
+		};
+		C5F1CE681F902D44000138D4 /* BilliardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1CE691F902D44000138D4 /* BilliardTests.swift */,
+				C5F1CE6B1F902D44000138D4 /* Info.plist */,
+			);
+			path = BilliardTests;
+			sourceTree = "<group>";
+		};
+		C5F1CE731F902D44000138D4 /* BilliardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1CE741F902D44000138D4 /* BilliardUITests.swift */,
+				C5F1CE761F902D44000138D4 /* Info.plist */,
+			);
+			path = BilliardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F1CE4A1F902D44000138D4 /* Billiard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F1CE791F902D44000138D4 /* Build configuration list for PBXNativeTarget "Billiard" */;
+			buildPhases = (
+				C5F1CE471F902D44000138D4 /* Sources */,
+				C5F1CE481F902D44000138D4 /* Frameworks */,
+				C5F1CE491F902D44000138D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Billiard;
+			productName = Billiard;
+			productReference = C5F1CE4B1F902D44000138D4 /* Billiard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5F1CE641F902D44000138D4 /* BilliardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F1CE7C1F902D44000138D4 /* Build configuration list for PBXNativeTarget "BilliardTests" */;
+			buildPhases = (
+				C5F1CE611F902D44000138D4 /* Sources */,
+				C5F1CE621F902D44000138D4 /* Frameworks */,
+				C5F1CE631F902D44000138D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F1CE671F902D44000138D4 /* PBXTargetDependency */,
+			);
+			name = BilliardTests;
+			productName = BilliardTests;
+			productReference = C5F1CE651F902D44000138D4 /* BilliardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5F1CE6F1F902D44000138D4 /* BilliardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F1CE7F1F902D44000138D4 /* Build configuration list for PBXNativeTarget "BilliardUITests" */;
+			buildPhases = (
+				C5F1CE6C1F902D44000138D4 /* Sources */,
+				C5F1CE6D1F902D44000138D4 /* Frameworks */,
+				C5F1CE6E1F902D44000138D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F1CE721F902D44000138D4 /* PBXTargetDependency */,
+			);
+			name = BilliardUITests;
+			productName = BilliardUITests;
+			productReference = C5F1CE701F902D44000138D4 /* BilliardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F1CE431F902D44000138D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yizhen Chen";
+				TargetAttributes = {
+					C5F1CE4A1F902D44000138D4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C5F1CE641F902D44000138D4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5F1CE4A1F902D44000138D4;
+					};
+					C5F1CE6F1F902D44000138D4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5F1CE4A1F902D44000138D4;
+					};
+				};
+			};
+			buildConfigurationList = C5F1CE461F902D44000138D4 /* Build configuration list for PBXProject "Billiard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F1CE421F902D44000138D4;
+			productRefGroup = C5F1CE4C1F902D44000138D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F1CE4A1F902D44000138D4 /* Billiard */,
+				C5F1CE641F902D44000138D4 /* BilliardTests */,
+				C5F1CE6F1F902D44000138D4 /* BilliardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F1CE491F902D44000138D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1CE5A1F902D44000138D4 /* Main.storyboard in Resources */,
+				C5F1CE511F902D44000138D4 /* GameScene.sks in Resources */,
+				C5F1CE5C1F902D44000138D4 /* Assets.xcassets in Resources */,
+				C5F1CE5F1F902D44000138D4 /* LaunchScreen.storyboard in Resources */,
+				C5F1CE531F902D44000138D4 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F1CE631F902D44000138D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F1CE6E1F902D44000138D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F1CE471F902D44000138D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1CE551F902D44000138D4 /* GameScene.swift in Sources */,
+				C5F1CE571F902D44000138D4 /* GameViewController.swift in Sources */,
+				C5F1CE4F1F902D44000138D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F1CE611F902D44000138D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1CE6A1F902D44000138D4 /* BilliardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F1CE6C1F902D44000138D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1CE751F902D44000138D4 /* BilliardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5F1CE671F902D44000138D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F1CE4A1F902D44000138D4 /* Billiard */;
+			targetProxy = C5F1CE661F902D44000138D4 /* PBXContainerItemProxy */;
+		};
+		C5F1CE721F902D44000138D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F1CE4A1F902D44000138D4 /* Billiard */;
+			targetProxy = C5F1CE711F902D44000138D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5F1CE581F902D44000138D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F1CE591F902D44000138D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5F1CE5D1F902D44000138D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F1CE5E1F902D44000138D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5F1CE771F902D44000138D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5F1CE781F902D44000138D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F1CE7A1F902D44000138D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2J3KQ86QD;
+				INFOPLIST_FILE = Billiard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uiowa.Billiard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5F1CE7B1F902D44000138D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2J3KQ86QD;
+				INFOPLIST_FILE = Billiard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uiowa.Billiard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5F1CE7D1F902D44000138D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2J3KQ86QD;
+				INFOPLIST_FILE = BilliardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uiowa.BilliardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billiard.app/Billiard";
+			};
+			name = Debug;
+		};
+		C5F1CE7E1F902D44000138D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2J3KQ86QD;
+				INFOPLIST_FILE = BilliardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uiowa.BilliardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billiard.app/Billiard";
+			};
+			name = Release;
+		};
+		C5F1CE801F902D44000138D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2J3KQ86QD;
+				INFOPLIST_FILE = BilliardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uiowa.BilliardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Billiard;
+			};
+			name = Debug;
+		};
+		C5F1CE811F902D44000138D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2J3KQ86QD;
+				INFOPLIST_FILE = BilliardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uiowa.BilliardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Billiard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F1CE461F902D44000138D4 /* Build configuration list for PBXProject "Billiard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F1CE771F902D44000138D4 /* Debug */,
+				C5F1CE781F902D44000138D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F1CE791F902D44000138D4 /* Build configuration list for PBXNativeTarget "Billiard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F1CE7A1F902D44000138D4 /* Debug */,
+				C5F1CE7B1F902D44000138D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F1CE7C1F902D44000138D4 /* Build configuration list for PBXNativeTarget "BilliardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F1CE7D1F902D44000138D4 /* Debug */,
+				C5F1CE7E1F902D44000138D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F1CE7F1F902D44000138D4 /* Build configuration list for PBXNativeTarget "BilliardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F1CE801F902D44000138D4 /* Debug */,
+				C5F1CE811F902D44000138D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F1CE431F902D44000138D4 /* Project object */;
+}
