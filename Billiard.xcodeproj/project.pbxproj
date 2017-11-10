@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52AA58C1F98309700B56AD6 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = C52AA58B1F98309700B56AD6 /* MainMenu.sks */; };
+		C52AA58E1F9832D600B56AD6 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AA58D1F9832D600B56AD6 /* MainMenu.swift */; };
+		C52AA5901F9873B900B56AD6 /* ScoreBoard.sks in Resources */ = {isa = PBXBuildFile; fileRef = C52AA58F1F9873B900B56AD6 /* ScoreBoard.sks */; };
+		C52AA5921F9873EF00B56AD6 /* ScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AA5911F9873EF00B56AD6 /* ScoreBoard.swift */; };
+		C52AA5941F9958D700B56AD6 /* BallParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = C52AA5931F9958D600B56AD6 /* BallParticle.sks */; };
+		C59408A01F9A685D00CF453E /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594089F1F9A685C00CF453E /* Score.swift */; };
+		C59408A21F9A808100CF453E /* About.sks in Resources */ = {isa = PBXBuildFile; fileRef = C59408A11F9A808100CF453E /* About.sks */; };
+		C59408A41F9A80B800CF453E /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59408A31F9A80B800CF453E /* About.swift */; };
+		C59408A61F9A851200CF453E /* Final.sks in Resources */ = {isa = PBXBuildFile; fileRef = C59408A51F9A851200CF453E /* Final.sks */; };
+		C59408A81F9A854600CF453E /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59408A71F9A854600CF453E /* Final.swift */; };
 		C5F1CE4F1F902D44000138D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CE4E1F902D44000138D4 /* AppDelegate.swift */; };
 		C5F1CE511F902D44000138D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CE501F902D44000138D4 /* GameScene.sks */; };
 		C5F1CE531F902D44000138D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CE521F902D44000138D4 /* Actions.sks */; };
@@ -37,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C52AA58B1F98309700B56AD6 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		C52AA58D1F9832D600B56AD6 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		C52AA58F1F9873B900B56AD6 /* ScoreBoard.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ScoreBoard.sks; sourceTree = "<group>"; };
+		C52AA5911F9873EF00B56AD6 /* ScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
+		C52AA5931F9958D600B56AD6 /* BallParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallParticle.sks; sourceTree = "<group>"; };
+		C594089F1F9A685C00CF453E /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		C59408A11F9A808100CF453E /* About.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = About.sks; sourceTree = "<group>"; };
+		C59408A31F9A80B800CF453E /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		C59408A51F9A851200CF453E /* Final.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Final.sks; sourceTree = "<group>"; };
+		C59408A71F9A854600CF453E /* Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final.swift; sourceTree = "<group>"; };
 		C5F1CE4B1F902D44000138D4 /* Billiard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Billiard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F1CE4E1F902D44000138D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F1CE501F902D44000138D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -104,11 +124,21 @@
 			isa = PBXGroup;
 			children = (
 				C5F1CE4E1F902D44000138D4 /* AppDelegate.swift */,
-				C5F1CE501F902D44000138D4 /* GameScene.sks */,
+				C52AA5931F9958D600B56AD6 /* BallParticle.sks */,
+				C594089F1F9A685C00CF453E /* Score.swift */,
 				C5F1CE521F902D44000138D4 /* Actions.sks */,
+				C5F1CE501F902D44000138D4 /* GameScene.sks */,
 				C5F1CE541F902D44000138D4 /* GameScene.swift */,
 				C5F1CE561F902D44000138D4 /* GameViewController.swift */,
 				C5F1CE581F902D44000138D4 /* Main.storyboard */,
+				C52AA58B1F98309700B56AD6 /* MainMenu.sks */,
+				C52AA58D1F9832D600B56AD6 /* MainMenu.swift */,
+				C59408A51F9A851200CF453E /* Final.sks */,
+				C59408A71F9A854600CF453E /* Final.swift */,
+				C59408A11F9A808100CF453E /* About.sks */,
+				C59408A31F9A80B800CF453E /* About.swift */,
+				C52AA58F1F9873B900B56AD6 /* ScoreBoard.sks */,
+				C52AA5911F9873EF00B56AD6 /* ScoreBoard.swift */,
 				C5F1CE5B1F902D44000138D4 /* Assets.xcassets */,
 				C5F1CE5D1F902D44000138D4 /* LaunchScreen.storyboard */,
 				C5F1CE601F902D44000138D4 /* Info.plist */,
@@ -241,10 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59408A21F9A808100CF453E /* About.sks in Resources */,
 				C5F1CE5A1F902D44000138D4 /* Main.storyboard in Resources */,
+				C52AA58C1F98309700B56AD6 /* MainMenu.sks in Resources */,
 				C5F1CE511F902D44000138D4 /* GameScene.sks in Resources */,
 				C5F1CE5C1F902D44000138D4 /* Assets.xcassets in Resources */,
 				C5F1CE5F1F902D44000138D4 /* LaunchScreen.storyboard in Resources */,
+				C59408A61F9A851200CF453E /* Final.sks in Resources */,
+				C52AA5901F9873B900B56AD6 /* ScoreBoard.sks in Resources */,
+				C52AA5941F9958D700B56AD6 /* BallParticle.sks in Resources */,
 				C5F1CE531F902D44000138D4 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59408A81F9A854600CF453E /* Final.swift in Sources */,
 				C5F1CE551F902D44000138D4 /* GameScene.swift in Sources */,
 				C5F1CE571F902D44000138D4 /* GameViewController.swift in Sources */,
+				C59408A41F9A80B800CF453E /* About.swift in Sources */,
+				C52AA5921F9873EF00B56AD6 /* ScoreBoard.swift in Sources */,
 				C5F1CE4F1F902D44000138D4 /* AppDelegate.swift in Sources */,
+				C59408A01F9A685D00CF453E /* Score.swift in Sources */,
+				C52AA58E1F9832D600B56AD6 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
